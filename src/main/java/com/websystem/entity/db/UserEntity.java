@@ -6,8 +6,8 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "users")
-public class UsersEntity {
+@Table(name = "user")
+public class UserEntity {
 	
     @Id
     @Column(name = "user_id")
